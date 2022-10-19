@@ -202,6 +202,7 @@ header
 .sub-header .left-content .nav li{
   display: inline-block;
   margin-left: 15px;
+  padding-right: 45px;
 
 }
 
@@ -213,6 +214,7 @@ header
 .sub-header .right-icons ul li {
   display: inline-block;
   margin-left: 15px;
+  padding: 0px 20px;
 }
 
 .sub-header .right-icons ul li a {
@@ -351,9 +353,10 @@ header
   opacity: 1;
 }
 
+
 .header-area .main-nav .nav li.has-sub {
   position: relative;
-  padding-right: 15px;
+  padding: 0px 25px;
 }
 
 .header-area .main-nav .nav li.has-sub:after {
@@ -1468,12 +1471,13 @@ section.our-facts {
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: cover;
   padding-top: 140px;
   padding-bottom: 130px;
 
 
+
 }
+
 
 section.our-facts h2 {
   font-size: 38px;
@@ -1606,10 +1610,17 @@ section.contact-us #contact button:hover {
   opacity: 0.9;
 }
 
+section.contact-us .left-info {
+  background-color: white;
+  border-radius: 20px;
+  padding: 50px;
+
+}
+
 section.contact-us .right-info {
   background-color: #008fb3;
   border-radius: 20px;
-  padding: 40px;
+  padding: 30px;
 
 }
 
